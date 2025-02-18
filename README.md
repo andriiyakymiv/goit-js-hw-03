@@ -16,8 +16,7 @@
 console.log(slugify('Arrays for beginners')); // "arrays-for-beginners"
 console.log(slugify('English for developer')); // "english-for-developer"
 console.log(slugify('Ten secrets of JavaScript')); //"ten-secrets-of-javascript"
-console.log(slugify('How to become a JUNIOR')); //"how-to-become-a-junior"
-``;
+console.log(slugify('How to become a JUNIOR')); //"how-to-become-a-junior";
 ```
 
 ## Задача 2. Композиція масивів
@@ -43,15 +42,11 @@ console.log(makeArray(['Earth', 'Jupiter'], ['Neptune', 'Uranus'], 4)); // ["Ear
 console.log(makeArray(['Earth', 'Jupiter'], ['Neptune', 'Uranus', 'Venus'], 0)); // []
 ```
 
-Задача 3. Фільтрація масиву чисел
+## Задача 3. Фільтрація масиву чисел
 
-Виконуй це завдання у файлі task-3.js
-
-Напиши функцію filterArray(numbers, value), яка приймає масив чисел (numbers) та
-значення (value) як параметри. Функція повинна повертати новий масив лише тих
+Напиши функцію `filterArray(numbers, value)`, яка приймає масив чисел (numbers)
+та значення (value) як параметри. Функція повинна повертати новий масив лише тих
 чисел із масиву numbers, які більші за значення value.
-
-Усередині функції:
 
 Створи порожній масив, у який будеш додавати підходящі числа. Використай цикл
 для ітерації кожного елемента масиву numbers. Використовуй умовний оператор if
@@ -61,7 +56,10 @@ console.log(makeArray(['Earth', 'Jupiter'], ['Neptune', 'Uranus', 'Venus'], 0));
 Візьми код нижче і встав після оголошення своєї функції для перевірки
 коректності її роботи. У консоль будуть виведені результати її роботи.
 
+```js
 console.log(filterArray([1, 2, 3, 4, 5], 3)); // [4, 5]
-console.log(filterArray([1, 2, 3, 4, 5], 4)); // [5] console.log(filterArray([1,
-2, 3, 4, 5], 5)); // [] console.log(filterArray([12, 24, 8, 41, 76], 38)); //
-[41, 76] console.log(filterArray([12, 24, 8, 41, 76], 20)); // [24, 41, 76]
+console.log(filterArray([1, 2, 3, 4, 5], 4)); // [5]
+console.log(filterArray([1, 2, 3, 4, 5], 5)); // []
+console.log(filterArray([12, 24, 8, 41, 76], 38)); //[41, 76]
+console.log(filterArray([12, 24, 8, 41, 76], 20)); // [24, 41, 76]
+```
