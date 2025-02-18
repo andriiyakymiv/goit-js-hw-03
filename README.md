@@ -1,5 +1,10 @@
 # GoIT JavaScript - Homework #2.
 
+**To correctly complete the task, I used the principle of arrays. Choose and use
+basic array methods. Used the for...of loop to iterate over an array. Expanded
+my understanding of flexibility and capabilities when working with functions.
+Learned to distinguish between global and block scope.**
+
 ---
 
 ## Задача 1. Генератор slug
