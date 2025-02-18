@@ -1,4 +1,4 @@
-# GoIT JavaScript - Homework #2.
+# GoIT JavaScript - Homework #3.
 
 **To correctly complete the task, I used the principle of arrays. Choose and use
 basic array methods. Used the for...of loop to iterate over an array. Expanded
